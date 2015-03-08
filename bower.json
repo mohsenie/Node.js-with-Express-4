@@ -1,0 +1,18 @@
+{
+  "name": "application-name",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "angular": "~1.2.14",
+    "angular-socket-io": "~0.3.0",
+    "angular-route": "~1.2.14",
+    "angular-charts": "0.2.7",
+    "angular-ui-router": "0.2.13",
+    "angular-chart.js": "0.5.2",
+	"validator-js": "3.33.0"
+  }
+}
