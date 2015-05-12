@@ -1,3 +1,7 @@
+This is a demo APP using socket.io with node.js and express 4 engine.
+It simply demonstrates use of web sockets to stream real-time data which is posted to a an exposed endpoint on the same server.
+once data is posed it will be streamed to all browser listeners which is implemented using Angular 
+To Run the app :
 first install Node.js then install all dependencies as below.
 
 > npm install
@@ -18,6 +22,4 @@ for remote JASON submissions please send JASON over POST to:
 
 http://localhost:3000/exposed
 
-after submission and in real time the graph which is done using Angular-chart will automatically 
-update and show the latest rates. Also there is a select menu in the page which can be used
-to choose the currency for which exchange rates are required.
+Now if you submit data over post to http://localhost:3000/exposed it will in  real time update the  graph which is done using Angular-charts 
